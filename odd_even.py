@@ -18,7 +18,8 @@ def oddeven():
         if data_list[i] % 2 !=0:
             # pass
             odd.append(data_list[i])
-        else :
+        # else :
+        elif data_list[i] % 2 ==0:
             even.append(data_list[i]) 
     return {
         "odd" : odd,
